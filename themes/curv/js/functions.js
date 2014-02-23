@@ -23,7 +23,7 @@ $(window).load(function() {
 	$('.flexslider').flexslider({
 		animation: "slide",
 		controlsContainer: ".slider-holder",
-		slideshowSpeed: 5000,
+		slideshowSpeed: 9000,
 		directionNav: false,
 		controlNav: true,
 		animationDuration: 2000,
@@ -32,7 +32,7 @@ $(window).load(function() {
 		},
 
 		after:function( slider ){
-			$('.img-holder').animate({'bottom' : '0px'},300)
+			$('.img-holder').animate({'bottom' : '80px'},300)
 		}
 	});
 });

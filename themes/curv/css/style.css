@@ -11,6 +11,14 @@ body {
 	min-width: 100%;
 }
 
+.navbar {
+    overflow: visible;
+    margin-bottom: -22px !Important;
+}
+.navbar-inner {
+    border-radius: 0 !Important;
+}
+
 /*font-family: 'Ubuntu', sans-serif;*/
 
 a { color: #0252aa; text-decoration: none; cursor: pointer; }
@@ -54,10 +62,10 @@ article, aside, details, footer, header, menu, nav, section { display: block; }
 .slider ul.slides { list-style: none; list-style-position: outside; }
 .slider ul.slides li { width: 990px; height: 378px; float: left; position: relative; overflow: hidden; }
 
-.slider ul.slides li .img-holder { width: 741px; height: 347px; position: absolute; bottom: 0px; right: 0px; }
-.slider ul.slides li .img-holder img { width: 741px; height: 347px; }
+.slider ul.slides li .img-holder {  position: absolute; bottom: 80px; right: 80px;  }
+.slider ul.slides li .img-holder img { }
 
-.slider ul.slides li .slide-cnt { width: 320px; padding: 33px 0 0 34px; position: absolute; left: 0; top: 20px; }
+.slider ul.slides li .slide-cnt { width: 320px; padding: 33px 0 0 34px; position: absolute; left: 40px; top: 20px; }
 .slider ul.slides li .slide-cnt h2 { font-size: 44px; line-height: 44px; padding-bottom: 16px; color: #fff; text-shadow: rgba(0,0,0,0.4) 0px 1px 2px; font-family: 'Ubuntu', sans-serif; font-weight: 700; }
 .slider ul.slides li .slide-cnt p { color: #fff; font-size: 14px; padding-bottom: 22px; }
 .slider ul.slides li .slide-cnt a.grey-btn { background: url(images/grey-btn.png) no-repeat 0 0; width: 186px; height: 45px; text-align: center; line-height: 40px; display: block; font-weight: bold; font-size: 18px;  color: #636363; text-shadow: rgba(255,255,255,0.4) 0px 1px 0px; }

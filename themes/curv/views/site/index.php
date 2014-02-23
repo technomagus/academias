@@ -1,8 +1,4 @@
-<div class="row-fluid" >
-<?php echo CController::renderPartial('/modalidades/modalidadesIndex', array(
-'dataProvider'=>  Modalidades::model()->aGetModalidadesInicial(),
-)); ?>
-</div>
+
 <section class="post">
     <div class="video-holder">
         <img src="<?php echo Yii::app()->theme->baseUrl; ?>/css/images/video-img.png" alt="" />

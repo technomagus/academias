@@ -40,7 +40,7 @@
                                 <?php
     $this->widget('bootstrap.widgets.TbNavbar',array(
             'brand'=>'',
-            //'collapse'=>true,
+            'collapse'=>true,
             'fixed'=>false,
             'items'=>array(
                 array(
@@ -48,6 +48,7 @@
                     'items'=>array(
                     array('label'=>'Início', 'url'=>array('/site/index')),
                     array('label'=>'Área do Aluno', 'url'=>array('/site/login')),
+                    array('label'=>'Modalidades','items'=>  Modalidades::model()->aGetSubMenuModalidades()),    
                     array('label'=>'Sobre Nós', 'url'=>array('/site/page', 'view'=>'about')),
                     array('label'=>'Contato', 'url'=>array('/site/contact')),
             ),
@@ -55,9 +56,9 @@
     ),
 ));
 ?>
-			
+'	
 <?php
-$dataprovider = Slider::model()->aGetSliderInicial();
+$dataprovider =  Modalidades::model()->aGetModalidadesInicial();
 ?>
 
 <div class="m-slider">
@@ -72,12 +73,12 @@ $dataprovider = Slider::model()->aGetSliderInicial();
             ?>
             <li>
                 <div class="img-holder">
-                    <img src="<?php echo $data->aGetImgLink(); ?>" />
+                    <img src="<?php echo $data->MOD_IMAGE; ?>" width="100%" style="box-shadow: #000 0 0 10px; border-radius:1em;"/>
                 </div>
                 <div class="slide-cnt">
-                    <h2><?php echo $data->aGetTitulo();?></h2>
+                    <h2><?php echo  $data->MOD_TITULO;?></h2>
                     <div class="box-cnt">
-                        <p><?php echo $data->aGetDescricao(); ?></p>
+                        <p><?php echo $data->aGetModalidadeDescPeq(300); ?></p>
                     </div>
                     <a href="#" class="grey-btn">Saiba mais</a>
                 </div>

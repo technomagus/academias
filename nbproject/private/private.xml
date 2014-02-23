@@ -10,7 +10,11 @@
             <file>file:/C:/xampp/htdocs/www/Academias/protected/components/tcButtonBaixaParcela.php</file>
         </group>
         <group name="Technomagus">
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/modules/siteadmin/models/Admin.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/modalidades/modalidadesIndex.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/models/Modalidades.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/index.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/error.php</file>
         </group>
     </open-files>
 </project-private>
