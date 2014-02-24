@@ -46,10 +46,10 @@ $this->beginWidget('zii.widgets.jui.CJuiDialog', array(
           $this->widget('ext.datetimepicker.datetimepicker',array('id'=>'FIN_VENCIMENTO', 'value'=>date('d-m-Y'),'lb'=>'Baixa'));
           $this->widget(
             'bootstrap.widgets.TbRedactorJs',
-            [
+            array(
                 'name' => 'some_name',
                 'id'=>'conteudo_edicao'
-            ]
+            )
          );
          
 //       echo '<div class="form-actions">';
