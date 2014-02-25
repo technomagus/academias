@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/components/tcAjaxButtonColumn.php</file>
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/modules/siteadmin/views/financeiro/_form.php</file>
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/modules/siteadmin/views/financeiro/admin.php</file>
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/modules/siteadmin/controllers/FinanceiroController.php</file>
-            <file>file:/C:/xampp/htdocs/www/Academias/protected/components/tcButtonBaixaParcela.php</file>
-        </group>
         <group name="Technomagus">
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/config/main.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/modalidades/modalidadesIndex.php</file>
@@ -21,6 +14,14 @@
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/index.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/layouts/main.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/css/style.css</file>
+        </group>
+        <group>
+            <file>file:/C:/xampp/htdocs/Academias/themes/curv/views/site/index.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/themes/curv/views/videos/videos.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/themes/curv/js/myCarousel.js</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/tema/setatema.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/admin/admin.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/financeiro/admin.php</file>
         </group>
     </open-files>
 </project-private>

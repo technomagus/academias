@@ -4,7 +4,7 @@
 Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/myCarousel_skin.css');
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery.jcarousel.js', CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/myCarousel.js', CClientScript::POS_HEAD);
-Yii::app()->clientScript->registerScriptFile("https://labnol.googlecode.com/files/youtube.js", CClientScript::POS_HEAD);
+//Yii::app()->clientScript->registerScriptFile("https://labnol.googlecode.com/files/youtube.js", CClientScript::POS_HEAD);
 
 ?>
 <script type="text/javascript">
@@ -17,22 +17,24 @@ Yii::app()->clientScript->registerScriptFile("https://labnol.googlecode.com/file
 //        $("#dialogDescricao").html(descricao);
 //        $("#Imagem").dialog("open");
 //        return false;
-    }
+//    }
 
 </script>
 
-        
+<div class="clearfix"></div>
 <div class="row-fluid">
-    
+    <div class="span12">
 <?php 
     echo '<div id="scrollprodutos" class="row-fluid">';
-    echo '<ul id="mycarousel" class"jcarousel-skin-tango row-fluid">';
+    echo '<ul id="mycarousel" class"jcarousel-skin-tango row">';
     foreach($dataProvider as $data){
-        echo '<li style="overflow:hidden; max-height:170px"> <div class="youtube" id="'.$data->clink.'" style="width: 320px; height: 180px; box-shadow: 0 0 5px black; border: solid 3px #2D5900"></div> </li>';
+        echo '<li class="span4" style="background:none !important"><div class="youtube" id="'.$data->clink.'" style="width:100%; height: 180px; box-shadow: 0 0 5px black; border: solid 3px #2D5900">';
+        echo '<script src="https://labnol.googlecode.com/files/youtube.js"></script></div></li>';
     }
     echo '</ul>';
     echo '</div>';
 ?>
+</div>
 </div>
 <?php
 //$this->beginWidget('zii.widgets.jui.CJuiDialog', array(

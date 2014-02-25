@@ -5875,3 +5875,20 @@ Stack trace:
 REQUEST_URI=/Academias/index.php/siteadmin/tema
 HTTP_REFERER=http://127.0.0.1/Academias/index.php/siteadmin/eventos
 ---
+2014/02/25 15:15:57 [error] [php] Undefined variable: provider (C:\xampp\htdocs\Academias\themes\curv\views\site\index.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\Yii\framework\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\Academias\protected\controllers\SiteController.php(38): SiteController->render()
+#3 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\Academias\index.php(15): CWebApplication->run()
+REQUEST_URI=/Academias/
+in C:\xampp\htdocs\Academias\themes\curv\views\site\index.php (17)
+in C:\xampp\htdocs\Academias\protected\controllers\SiteController.php (38)
+in C:\xampp\htdocs\Academias\index.php (15)
