@@ -16,7 +16,7 @@
                 data: { data: $('input:checked').val() },
                 type: 'post',
             }).done(function(){
-                window.location ='http://localhost/www/technomagus/academias/index.php'; 
+                window.location ='  <?php echo Yii::app()->request->baseUrl ;?>'; 
             })
     });
 </script>
