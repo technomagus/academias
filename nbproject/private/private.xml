@@ -10,11 +10,17 @@
             <file>file:/C:/xampp/htdocs/www/Academias/protected/components/tcButtonBaixaParcela.php</file>
         </group>
         <group name="Technomagus">
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/config/main.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/modalidades/modalidadesIndex.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/models/Modalidades.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/controllers/AdminController.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/js/functions.js</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/views/default/index.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/SiteadminModule.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/controllers/DefaultController.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/controllers/SiteController.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/index.php</file>
             <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/error.php</file>
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/css/style.css</file>
         </group>
     </open-files>
 </project-private>
