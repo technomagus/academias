@@ -28,6 +28,7 @@
             'items'=>array(
                 array('label'=>'Clientes', 'url'=>array('/siteadmin/cliente/')),
                 array('label'=>'Modalidades', 'url'=>array('/siteadmin/modalidades/')),
+                array('label'=>'Videos', 'url'=>array('/siteadmin/videos/')),
                 array('label'=>'Eventos', 'url'=>array('/siteadmin/eventos/')),
                 array('label'=>'Slider', 'url'=>array('/siteadmin/slider/')),
                 array('label'=>'Admins', 'url'=>array('/siteadmin/admin/')),
