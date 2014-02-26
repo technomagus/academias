@@ -19,7 +19,7 @@ return array(
 		'application.components.*',
 		'application.helpers.*',
 	),
-        'theme'=> isset($_COOKIE["tema"]) ? $_COOKIE["tema"] : 'bootstrap' ,
+        'theme'=> isset($_COOKIE["tema"]) ? $_COOKIE["tema"] : 'temaAzul' ,
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 		'siteadmin',

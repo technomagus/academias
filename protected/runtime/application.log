@@ -5892,3 +5892,55 @@ REQUEST_URI=/Academias/
 in C:\xampp\htdocs\Academias\themes\curv\views\site\index.php (17)
 in C:\xampp\htdocs\Academias\protected\controllers\SiteController.php (38)
 in C:\xampp\htdocs\Academias\index.php (15)
+2014/02/26 13:51:17 [error] [exception.CException] exception 'CException' with message 'A propriedade "TbMenu.brand" não está definida.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('brand', 'TECHNOMAGUS')
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\Academias\themes\temaAzul\views\site\menu.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\Academias\themes\temaAzul\views\site\index.php(13): CController->renderPartial('/site/menu')
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\Academias\protected\controllers\SiteController.php(38): CController->render('index')
+#13 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Academias\index.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/Academias/
+---
+2014/02/26 13:51:22 [error] [exception.CException] exception 'CException' with message 'A propriedade "TbMenu.collapse" não está definida.' in C:\xampp\htdocs\Yii\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\CWidgetFactory.php(161): CComponent->__set('collapse', true)
+#1 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'bootstrap.widge...', Array)
+#2 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(172): CBaseController->createWidget('bootstrap.widge...', Array)
+#3 C:\xampp\htdocs\Academias\themes\temaAzul\views\site\menu.php(20): CBaseController->widget('bootstrap.widge...', Array)
+#4 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#5 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\Academias\themes\temaAzul\views\site\index.php(13): CController->renderPartial('/site/menu')
+#8 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#9 C:\xampp\htdocs\Yii\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\Yii\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#11 C:\xampp\htdocs\Yii\framework\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#12 C:\xampp\htdocs\Academias\protected\controllers\SiteController.php(38): CController->render('index')
+#13 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#14 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\Yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#19 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\Academias\index.php(15): CApplication->run()
+#21 {main}
+REQUEST_URI=/Academias/
+---

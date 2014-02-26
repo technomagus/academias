@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'copperplate';
+    src: url('fonts/coprgtl-webfont.eot');
+    src: url('fonts/coprgtl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/coprgtl-webfont.woff') format('woff'),
+         url('fonts/coprgtl-webfont.ttf') format('truetype'),
+         url('fonts/coprgtl-webfont.svg#copperplate_gothic_lightRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.oswald{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    background: #195F88 !important;
+}
+.copperplate{
+    font-family: copperplate;
+}
+.font18{
+    font-size:18px;
+    line-height: 18px;
+}
+.text-justify{
+    text-align:justify;
+}
+.text-cinza{
+    color:#666;
+}
+.cursor-pointer{
+    cursor:pointer;
+}
+.carousel{
+    margin:0 !important;
+    padding:0;
+}
+.nav{
+    text-transform: uppercase;
+}
+.nav li{
+    line-height: 40px !important;
+
+}
+.nav > .active > a, .nav > .active > a:hover, .nav > .active > a:focus{
+    background: #1b1b1b;
+    box-shadow: none !important;
+}
+.nav a{   
+    font-family: 'Oswald', sans-serif;
+    padding-left: 2% !important;
+    color: #fff;
+    font-size:20px;
+}
+.nav a:hover{   
+    background: #1b1b1b !important;
+    color: #fff;
+}
+#page{
+    padding: 0;
+}
+#content{
+    background: #619EC2;
+}
+.logotopo{
+    margin-top:20px;
+}
+.menutopo{
+ list-style: none;
+ padding: 21px 0 0 0;
+}
+.menutopo a{
+    color:#666;
+}
+.menutopo a:hover{
+    color:#bbb;
+    text-decoration: none;
+}
+.menutopo li{
+     display: inline;
+     padding:20px;
+     height: 60px;
+}
+
+.rodape{
+    background:#ccc;
+    height: 220px;
+}
+.logorodape{
+    margin-top: 35px;
+}
+.direitos{
+    background: #000;
+    font-size:20px;
+    color:#fff;
+    height: 47px;
+    display: block;
+    line-height: 47px;
+}
+.modalidades{
+    color:#fff;
+}
+.modalidades h3{
+    text-shadow: 1px 1px 0 #84bbdb;
+    color:#0d4667;
+    text-transform:uppercase;
+}
+.modDescricaoInicial{
+    font-size:16px;
+    line-height: 26px;
+}
+.evData{
+    line-height: 30px;
+    vertical-align: middle;
+}
+.modInicial{
+    width:100%;
+}
+.text-sombra{
+    text-shadow: 1px 1px 0 #84bbdb;
+    color:#0d4667;
+    text-transform:uppercase;
+}
