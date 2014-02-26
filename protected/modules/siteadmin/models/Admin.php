@@ -68,7 +68,7 @@ class Admin extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'adm_id' => 'Adm',
+			'adm_id' => 'Usuário',
 			'adm_nome' => 'Nome',
 			'adm_email' => 'Email',
 			'adm_senha' => 'Senha',

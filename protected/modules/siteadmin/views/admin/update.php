@@ -4,7 +4,7 @@
     );
     ?>
 
-	<h3>Atualizar Admin <?php echo $model->adm_nome; ?></h3>
+	<h3>Atualizar Usuário <?php echo $model->adm_nome; ?></h3>
 
 <?php
 $this->widget('bootstrap.widgets.TbTabs', array(

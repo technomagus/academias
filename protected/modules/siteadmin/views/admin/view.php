@@ -1,9 +1,9 @@
 <?php
 $this->menu=array(
     array('label'=>'Voltar','icon'=>'arrow-left','url'=>array('admin')),
-    array('label'=>'Atualizar Admin','icon'=>'pencil','url'=>array('update','id'=>$model->adm_id)),
-    array('label'=>'Desligar/Ligar Admin',  'icon'=>'minus-sign', 'url'=>'#','linkOptions'=>array('submit'=>array('desligar','id'=>$model->adm_id),'confirm'=>'Deseja Desligar/Ligar este cliente?')),
-    array('label'=>'Excluir Admin',  'icon'=>'trash', 'url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->adm_id),'confirm'=>'Deseja realmente excluir este item?')),
+    array('label'=>'Atualizar Usuário','icon'=>'pencil','url'=>array('update','id'=>$model->adm_id)),
+    array('label'=>'Desligar/Ligar Usuário',  'icon'=>'minus-sign', 'url'=>'#','linkOptions'=>array('submit'=>array('desligar','id'=>$model->adm_id),'confirm'=>'Deseja Desligar/Ligar este cliente?')),
+    array('label'=>'Excluir Usuário',  'icon'=>'trash', 'url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->adm_id),'confirm'=>'Deseja realmente excluir este item?')),
 );
 ?>
 

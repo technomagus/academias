@@ -1,12 +1,12 @@
 <?php
 
 $this->menu=array(   
-    array('label'=>'Novo Admin','icon'=>'plus','url'=>array('create')),
+    array('label'=>'Novo Usuário','icon'=>'plus','url'=>array('create')),
 );
 
 ?>
 
-<h3>Gerenciamento de Admins</h3>
+<h3>Gerenciamento de Usuários</h3>
 
 <?php
 $this->widget('bootstrap.widgets.TbTabs', array(

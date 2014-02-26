@@ -5,7 +5,7 @@ array('label'=>'Voltar','icon'=>'arrow-left','url'=>array('admin')),
 );
 ?>
 
-<h3>Cadastrar Admin</h3>
+<h3>Cadastrar Usuário</h3>
 
 <?php
 $this->widget('bootstrap.widgets.TbTabs', array(

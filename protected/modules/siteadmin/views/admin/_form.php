@@ -3,7 +3,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-<p class="help-block">Fields with <span class="required">*</span> are required.</p>
+<p class="help-block">Campos com <span class="required">*</span> são obrigatórios.</p>
 
 <?php echo $form->errorSummary($model); ?>
 
@@ -28,7 +28,7 @@
 	<?php $this->widget('bootstrap.widgets.TbButton', array(
 			'buttonType'=>'submit',
 			'type'=>'primary',
-			'label'=>$model->isNewRecord ? 'Incluir' : 'Save',
+			'label'=>$model->isNewRecord ? 'Incluir' : 'Alterar',
 		)); ?>
 </div>
 

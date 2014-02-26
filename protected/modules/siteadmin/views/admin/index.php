@@ -9,7 +9,7 @@ array('label'=>'Manage Admin','url'=>array('admin')),
 );
 ?>
 
-<h1>Admins</h1>
+<h1>Usuários</h1>
 
 <?php $this->widget('bootstrap.widgets.TbListView',array(
 'dataProvider'=>$dataProvider,

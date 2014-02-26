@@ -31,7 +31,7 @@
                 array('label'=>'Videos', 'url'=>array('/siteadmin/videos/')),
                 array('label'=>'Eventos', 'url'=>array('/siteadmin/eventos/')),
                 array('label'=>'Slider', 'url'=>array('/siteadmin/slider/')),
-                array('label'=>'Admins', 'url'=>array('/siteadmin/admin/')),
+                array('label'=>'Usuários', 'url'=>array('/siteadmin/admin/')),
                 array('label'=>'Temas', 'url'=>array('/siteadmin/tema/')),
                 array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
                 array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
