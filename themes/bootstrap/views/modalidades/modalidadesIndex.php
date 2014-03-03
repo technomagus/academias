@@ -38,3 +38,4 @@ foreach($dataProvider as $data)
 ?>
 </div>
 </div>
+</div>
