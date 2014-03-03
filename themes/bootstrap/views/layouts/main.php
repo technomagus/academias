@@ -97,7 +97,7 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
 
 </div><!-- page -->
 <div class="rodape">
-    <div class="container">
+    <div class="container" style="max-width: 960px !important;">
         <div class="row-fluid">
             <div class="span5">
                 <?php echo CHtml::image(Yii::app()->theme->baseUrl .'/img/logorodape.png', 'Technomagus', array('class'=>'logorodape')); ?>
