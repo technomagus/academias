@@ -140,7 +140,7 @@ class Modalidades extends CActiveRecord
 		$criteria->compare('MOD_DESCRICAO',$this->MOD_DESCRICAO,true);
 		$criteria->compare('MOD_IMAGE',$this->MOD_IMAGE,true);
 		$criteria->compare('MOD_HORARIOxTURNOxPRECO',$this->MOD_HORARIOxTURNOxPRECO,true);
-		$criteria->compare('MOD_STATUS',1);
+		$criteria->compare('MOD_STATUS',0);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

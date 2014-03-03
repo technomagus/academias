@@ -26,9 +26,9 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/myC
     <div class="span12">
 <?php 
     echo '<div id="scrollprodutos" class="row-fluid">';
-    echo '<ul id="mycarousel" class"jcarousel-skin-tango row">';
+    echo '<ul id="mycarousel" class"jcarousel-skin-tango">';
     foreach($dataProvider as $data){
-        echo '<li class="span4" style="background:none !important"><div class="youtube" id="'.$data->clink.'" style="width:100%; height: 180px; box-shadow: 0 0 5px black; border: solid 3px #2D5900">';
+        echo '<li style="background:none !important"><div class="youtube" id="'.$data->clink.'" style="width:100%; height: 180px; box-shadow: 0 0 5px black; border: solid 3px #2D5900">';
         echo '<script src="https://labnol.googlecode.com/files/youtube.js"></script></div></li>';
     }
     echo '</ul>';

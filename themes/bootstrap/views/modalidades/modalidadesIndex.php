@@ -1,11 +1,11 @@
-<div class="row-fluid text-justify">
+
 
 <div class="clearfix"></div>
 <div class="row-fluid">
     <div class="span12">
 <?php 
 
-Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/myCarousel_skin.css');
+Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/myCarousel_skin2.css');
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery.jcarousel.js', CClientScript::POS_HEAD);
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/myCarousel2.js', CClientScript::POS_HEAD);
 
@@ -21,21 +21,20 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/myC
     
     
 <?php
-echo '<div id="scrollprodutos" class="row-fluid">';
-echo '<ul id="mycarousel" class"jcarousel-skin-tango">';
+echo '<div id="scrollprodutos">';
+echo '<ul id="mycarousel" class="jcarousel-skin-tango">';
 
 foreach($dataProvider as $data)
 {
-    echo '<li class="modalidades span4">';
+    echo '<li>';
     echo CHtml::link(CHtml::image($data->MOD_IMAGE, $data->MOD_TITULO, array('title'=>$data->MOD_TITULO, 'class'=>'modInicial')), Yii::app()->createUrl('/modalidades/ver', array('id'=>$data->MODALIDADE_ID)));
-    echo '<div class="clearfix"></div>';
+//    echo '<div class="clearfix"></div>';
     echo '<div class="text-center modTituloInicial">'. CHtml::link($data->MOD_TITULO, Yii::app()->createUrl('/modalidades/ver', array('id'=>$data->MODALIDADE_ID))).'</div>';
-    echo '<span class="text-justify modDescricaoInicial">'. $data->aGetModalidadeDescPeq(128) . '</span>';
+    echo '<div class="text-justify modDescricaoInicial">'. $data->aGetModalidadeDescPeq(128) . '</div>';
     echo '</li>';
 }
     echo '</ul>';
     echo '</div>';
 ?>
-</div>
 </div>
 </div>
