@@ -130,3 +130,8 @@
 .modInicial{
     transition: 0.5s;
 }
+
+
+#page{
+    max-width: 960px;
+}
