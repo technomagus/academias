@@ -35,7 +35,7 @@ class EventosController extends Controller
                 'users'=>array('@'),
             ),
             array('allow', // allow admin user to perform 'admin' and 'delete' actions
-                'actions'=>array('admin','delete'),
+                'actions'=>array('admin','delete', 'desligar'),
                 'users'=>array('admin'),
             ),
             array('deny',  // deny all users
@@ -79,6 +79,26 @@ class EventosController extends Controller
         $this->render('create',array(
             'model'=>$model,
         ));
+    }
+    
+    public function actionDesligar($id)
+    {
+        if(Yii::app()->request->isPostRequest)
+        {
+            // we only allow deletion via POST request
+            $model = $this->loadModel($id);
+            if($model->ev_status)
+                $model->ev_status = 0;
+            else
+                $model->ev_status = 1;
+            $model->save();
+
+            // if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
+            if(!isset($_GET['ajax']))
+                $this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
+        }
+        else
+            throw new CHttpException(400,'Invalid request. Please do not repeat this request again.');
     }
 
     /**

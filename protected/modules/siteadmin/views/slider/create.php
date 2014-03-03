@@ -15,7 +15,7 @@ $this->menu=array(
 $this->widget('bootstrap.widgets.TbTabs', array(
                 'type'=>'tabs',
                 'tabs'=>array(
-                    array('label'=>'Ativos', 'content'=>
+                    array('label'=>'Cadastro', 'content'=>
  $this->renderPartial('_form', array('model'=>$model),true)
 , 'active'=>true))
         )

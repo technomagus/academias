@@ -46,14 +46,14 @@ class Slider extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('sl_titulo, sl_link, sl_descricao, sl_dtcricao, sl_status', 'required'),
+			array('sl_titulo, sl_link, sl_descricao, sl_dtcriacao, sl_status', 'required'),
 			array('sl_status', 'numerical', 'integerOnly'=>true),
 			array('sl_titulo, sl_link, sl_descricao', 'length', 'max'=>256),
                         array('sl_img', 'file', 'types'=>'jpg, jpeg, png, pneg', 'maxSize'=>1024 * 1024 *2, 'tooLarge'=>'Imagem deve ter no Máximo 2 MB'),
                         array('sl_img', 'file', 'types'=>'jpg, jpeg, png, pneg', 'maxSize'=>1024 * 1024 *2, 'tooLarge'=>'Imagem deve ter no Máximo 2 MB', 'allowEmpty'=>'true', 'on'=>'update'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('sl_id, sl_titulo, sl_link, sl_descricao, sl_dtcricao, sl_status', 'safe', 'on'=>'search'),
+			array('sl_id, sl_titulo, sl_link, sl_descricao, sl_dtcriacao, sl_status', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -79,7 +79,7 @@ class Slider extends CActiveRecord
 			'sl_link' => 'Link',
 			'sl_descricao' => 'Descrição',
 			'sl_img' => 'Imagem',
-			'sl_dtcricao' => 'Data de criação',
+			'sl_dtcriacao' => 'Data de criação',
 			'sl_status' => 'Status',
 		);
 	}
@@ -195,7 +195,7 @@ class Slider extends CActiveRecord
         }
         public function aGetDescricao()
         {
-            if(!empty($this->sl_dtcricao)){
+            if(!empty($this->sl_descricao)){
                 return $this->sl_descricao;
             }
         }
