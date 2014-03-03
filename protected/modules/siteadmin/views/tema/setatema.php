@@ -4,6 +4,8 @@
     <br/><br/>
     <input type="radio" value="curv" name="tema"/>Tema 2
     <br/><br/>
+    <input type="radio" value="temaAzul" name="tema"/>Tema 3
+    <br/><br/>
     <input type="submit" value="Alterar tema"/>
 </form>
 

@@ -28,11 +28,11 @@ $(window).resize(function(){
 });
 $(document).ready(function() {
     $('#mycarousel').jcarousel({
-        auto: 4,
+        auto: 3,
 //        wrap: 'circular',
         wrap: 'both',
-	visible:4,
-	scroll:4,
+	visible:3,
+	scroll:3,
 	animation: 1000,
 	itemFallbackDimension: 45
     });
