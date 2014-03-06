@@ -24,16 +24,22 @@ $this->beginWidget('zii.widgets.jui.CJuiDialog', array(
                                  'width'=>600,
                                  'height'=>400,
                                  'buttons'=>array(
-                                       array('text'=>'Ok','click'=> 'js:function(){'
+                                       array('text'=>'Ok','click'=> 'js:function(){'    
+                                           . ''
+                                           . ''
                                            . '$.ajax({'
-                                           . 'url: "'.Yii::app()->createUrl("/siteadmin/cliente/recebeparcela").'" ,'
-                                           //. 'data: {id '
+                                           . 'url: "'.Yii::app()->createUrl("/siteadmin/financeiro/recebeparcela").'" ,'
+                                           . 'data: {id : $("#vlParcela").attr("cdparc"), '
+                                           .        'valor: $("#vlParcela").val(), '
+                                           .        'baixa: $("#FIN_VENCIMENTO input").val(),'
+                                           .         'msg: $(".redactor_editor").html()},'
+                                           . 'type : "POST"'
                                            . '}).done(function(data){'
-                                           . '$(this).dialog("close");'
+                                           . '$("#BaixaParcela").dialog("close");'
                                            . 'window.location.reload();'
-                                           . '}).fail(function(){});'
-                                           . '$(this).dialog("close"); '
-                                           . 'window.location.reload();}'),
+                                           . '}).fail(function(data){alert("falhou");});'
+                                           . '$("#BaixaParcela").dialog("close");'
+                                           . '}'),
                                     ),
                              ),
                         )
@@ -68,7 +74,6 @@ $this->beginWidget('zii.widgets.jui.CJuiDialog', array(
                 'FIN_DESCRICAO',
                 array('name'=>'FIN_VALOR', 'htmlOptions'=>array('style'=>'text-align:right;')),
                 array('name'=>'FIN_VENCIMENTO', 'htmlOptions'=>array('style'=>'text-align:center;')),
-		'FIN_VENCIMENTO',
 		'FIN_BAIXA',
                 array('header'=>Yii::t('ses','Receber'),
                       'class'=>'tcButtonBaixaParcela',

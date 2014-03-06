@@ -35,7 +35,7 @@ class FinanceiroController extends Controller
             'users'=>array('@'),
         ),
         array('allow', // allow admin user to perform 'admin' and 'delete' actions
-            'actions'=>array('admin','delete','loadData'),
+            'actions'=>array('admin','delete','loadData','recebeparcela'),
             'users'=>array('admin'),
         ),
         array('deny',  // deny all users
@@ -102,11 +102,10 @@ class FinanceiroController extends Controller
     
     public function actionRecebeparcela()
     {
-        if(isset($_POST['data']))
-        {
-            $data = json_decode($_POST['data']);
-            $this->loadModel($data[0]);
-        }
+        $model = $this->loadModel($_POST['id']);   
+        $model->FIN_BAIXA = $_POST['baixa'];
+        $model->FIN_DESCRICAO = $_POST['msg']; 
+        $model->save();
     }
 
     /**
@@ -158,7 +157,7 @@ class FinanceiroController extends Controller
     public function actionLoadData($id = null)
     {
         $model = $this->loadModel($id);
-        echo $model->FIN_VALOR.'|'.$model->FIN_DESCRICAO;
+        echo $id.'|'.$model->FIN_VALOR.'|'.$model->FIN_DESCRICAO;
     }
 
     /**

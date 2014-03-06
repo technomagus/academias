@@ -30,10 +30,10 @@ class tcButtonBaixaParcela extends CButtonColumn
                                         function(data){
                                            console.log(data);
                                             tmp = data.split("|");
-                                            $("#'.$this->seletor[0].'").val(tmp[0]);
-                                            console.log($(".'.$this->seletor[1].'").html);
-                                            $(".redactor_editor").html(tmp[1]);
-                                                
+                                            console.log(tmp);
+                                            $("#'.$this->seletor[0].'").attr("cdparc",tmp[0]);
+                                            $("#'.$this->seletor[0].'").val(tmp[1]);
+                                            $(".redactor_editor").html(tmp[2]);
                                             $("#'.$this->dialog.'").dialog("open");
                                         }
                                      );

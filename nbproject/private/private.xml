@@ -2,19 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group name="Technomagus">
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/config/main.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/modalidades/modalidadesIndex.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/controllers/AdminController.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/js/functions.js</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/views/default/index.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/SiteadminModule.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/modules/siteadmin/controllers/DefaultController.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/protected/controllers/SiteController.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/site/index.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/css/style.css</file>
-        </group>
         <group>
             <file>file:/C:/xampp/htdocs/Academias/themes/temaAzul/views/site/menu.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/temaAzul/css/add.css</file>
@@ -31,5 +18,9 @@
             <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/tema/setatema.php</file>
             <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/financeiro/admin.php</file>
         </group>
+        <group name="html5">
+            <file>file:/C:/xampp/htdocs/www/technomagus/academias/themes/curv/views/videos/videos.php</file>
+        </group>
+        <group name="Technomagus"/>
     </open-files>
 </project-private>

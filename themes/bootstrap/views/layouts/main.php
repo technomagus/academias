@@ -39,7 +39,7 @@
 <!--<div class="container">
     <div class="row-fluid">
         <div class="logo span5">
-            <?php echo CHtml::image(Yii::app()->theme->baseUrl .'/img/logo.png', 'Technomagus', array('class'=>'logotopo')); ?>
+            <?php echo CHtml::image(Yii::app()->theme->baseUrl .'/img/LOGO-EQUILIBRIO.png', 'Technomagus', array('class'=>'logotopo')); ?>
         </div>
         <div class="span7 text-right">
             <ul class="menutopo copperplate font18">
@@ -55,7 +55,7 @@
         
 <?php
 $this->widget('bootstrap.widgets.TbNavbar',array(
-    'brand'=>'TECHNOMAGUS',
+    'brand'=>CHtml::image(Yii::app()->theme->baseUrl .'/img/LOGO-EQUILIBRIO.png', 'Technomagus', array('class'=>'logotopo')),
     'collapse'=>true,
     'items'=>array(
         array(
