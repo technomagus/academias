@@ -23,7 +23,7 @@ $this->pageTitle=Yii::app()->name;
         ));?>
     </div>
     <div class="span4">
-        <h1 class="copperplate text-center text-cinza">SOCIAL</h1>
+        <h1 class="copperplate text-center text-azul">SOCIAL</h1>
         <div class="fb-like-box" data-href="http://www.facebook.com/FacebookDevelopers" data-width="304" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
     </div>
 </div>

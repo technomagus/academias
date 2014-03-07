@@ -1,4 +1,4 @@
-<h1 class="copperplate text-center text-cinza">EVENTOS</h1>
+<h1 class="copperplate text-center text-azul">EVENTOS</h1>
 <?php 
 $i=0;
 foreach($dataProvider as $data){ 
@@ -9,11 +9,11 @@ foreach($dataProvider as $data){
     
     ?>
 <div class="row-fluid" style="border:1px solid #999;">
-    <div class="row-fluid" style=" background:#eee; border-bottom:1px solid #999">
-        <div class="span3 evData text-cinza text-center font18 modalidades">
+    <div class="row-fluid" style=" background:#0099cc; border-bottom:1px solid #999">
+        <div class="span3 evData text-branco text-center font18 modalidades">
             <?php echo $data->aData . ' ' . $data->aHora ; ?>
         </div>
-        <div class="span7 evTexto text-cinza text-center modalidades">
+        <div class="span7 evTexto text-branco text-center modalidades">
             <?php echo $data->ev_titulo; ?>
         </div>
     </div>

@@ -99,8 +99,8 @@ $this->widget('bootstrap.widgets.TbNavbar',array(
 <div class="rodape">
     <div class="container" style="max-width: 960px !important;">
         <div class="row-fluid">
-            <div class="span5">
-                <?php echo CHtml::image(Yii::app()->theme->baseUrl .'/img/logorodape.png', 'Technomagus', array('class'=>'logorodape')); ?>
+            <div class="span5" style="margin-top: 50px;">
+                <?php echo CHtml::image(Yii::app()->theme->baseUrl .'/img/logorodape2.png', 'Technomagus', array('class'=>'logorodape')); ?>
             </div>
             <div class="span7">
                 

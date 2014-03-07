@@ -28,6 +28,12 @@ body{
 .text-cinza{
     color:#666;
 }
+.text-azul{
+    color: #0099cc;
+}
+.text-branco{
+    color: #fff !important;
+}
 .cursor-pointer{
     cursor:pointer;
 }
@@ -75,11 +81,11 @@ body{
 }
 
 .rodape{
-    background:#ccc;
+    background:#0099cc;
     height: 150px;
 }
 .direitos{
-    background: #000;
+    background: #0099cc;
     color:#fff;
     display: block;
 }
@@ -130,7 +136,8 @@ body{
 
 #page{
     max-width: 960px;
-    padding-top:75px !important;
+    padding:75px 20px 0 !important;
+    box-shadow: 0px 0px 11px gray;
 }
 .logotopo
 {
