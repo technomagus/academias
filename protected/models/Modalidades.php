@@ -128,7 +128,7 @@ class Modalidades extends CActiveRecord
             $criteria->select = 'MODALIDADE_ID, MOD_TITULO, MOD_IMAGE, MOD_DESCRICAO';
             $criteria->condition = 'MOD_STATUS = 1';
             $criteria->order = 'rand()';
-            $criteria->limit = 3;
+//            $criteria->limit = 3;
             return self::findAll($criteria);
         }
         public function hasImagens()
