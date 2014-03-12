@@ -177,4 +177,36 @@ class Cliente extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        public function beforeSave()
+        {
+           if(!empty($this->CLI_DATAMATRICULA))
+           {
+              $tmp = explode("-",$this->CLI_DATAMATRICULA);
+              $this->CLI_DATAMATRICULA = $tmp[2]."-".$tmp[1]."-".$tmp[0];
+           }
+           if(!empty($this->CLI_DATANASCIMENTO))
+           {
+              $tmp = explode("-",$this->CLI_DATANASCIMENTO);
+              $this->CLI_DATANASCIMENTO= $tmp[2]."-".$tmp[1]."-".$tmp[0];
+           }
+            echo $this->CLI_DATAMATRICULA;
+            echo '<br/>'.$this->CLI_DATANASCIMENTO;
+            return parent::beforeSave();
+        }
+        public function afterFind()
+        {
+           if(!empty($this->CLI_DATAMATRICULA))
+           {
+              $tmp = explode("-",$this->CLI_DATAMATRICULA);
+              $this->CLI_DATAMATRICULA = $tmp[2]."-".$tmp[1]."-".$tmp[0];
+           }
+           if(!empty($this->CLI_DATANASCIMENTO))
+           {
+              $tmp = explode("-",$this->CLI_DATANASCIMENTO);
+              $this->CLI_DATANASCIMENTO= $tmp[2]."-".$tmp[1]."-".$tmp[0];
+           }
+            echo $this->CLI_DATAMATRICULA;
+            echo '<br/>'.$this->CLI_DATANASCIMENTO;
+            return parent::afterFind();
+        }
 }
