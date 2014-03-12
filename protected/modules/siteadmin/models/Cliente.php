@@ -189,8 +189,6 @@ class Cliente extends CActiveRecord
               $tmp = explode("-",$this->CLI_DATANASCIMENTO);
               $this->CLI_DATANASCIMENTO= $tmp[2]."-".$tmp[1]."-".$tmp[0];
            }
-            echo $this->CLI_DATAMATRICULA;
-            echo '<br/>'.$this->CLI_DATANASCIMENTO;
             return parent::beforeSave();
         }
         public function afterFind()
@@ -204,9 +202,7 @@ class Cliente extends CActiveRecord
            {
               $tmp = explode("-",$this->CLI_DATANASCIMENTO);
               $this->CLI_DATANASCIMENTO= $tmp[2]."-".$tmp[1]."-".$tmp[0];
-           }
-            echo $this->CLI_DATAMATRICULA;
-            echo '<br/>'.$this->CLI_DATANASCIMENTO;
+           }CIMENTO;
             return parent::afterFind();
         }
 }
