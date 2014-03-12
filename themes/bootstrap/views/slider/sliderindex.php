@@ -2,8 +2,8 @@
 $i=0;
 foreach($dataProvider as $data){
     $img[$i]['image'] = $data->aGetImgLink(); 
-    $img[$i]['label'] = $data->aGetDescricao(); 
-    $img[$i]['caption'] = $data->aGetTitulo(); 
+    $img[$i]['caption'] = $data->aGetDescricao(); 
+    $img[$i]['label'] = $data->aGetTitulo(); 
     $i++;
 }
 

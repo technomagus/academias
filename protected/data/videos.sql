@@ -6,7 +6,7 @@
 -- Data de Criação: 25-Fev-2014 às 03:21
 -- Versão do servidor: 5.6.14
 -- versão do PHP: 5.5.6
-
+USE technomagus_acd;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
