@@ -214,7 +214,7 @@ class Slider extends CActiveRecord
             $local = $this->aGetImgDir();
             if($img->saveAs($local)){
                 $image = Yii::app()->image->load($local);
-                $image->resize(1170, 400, Image::NONE);
+                $image->resize(960, 368, Image::NONE);
                 if($image->save($local)){
                     return true;
                 }
