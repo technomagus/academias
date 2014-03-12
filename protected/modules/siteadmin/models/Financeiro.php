@@ -100,7 +100,8 @@ class Financeiro extends CActiveRecord
            
            if(!empty($this->FIN_BAIXA))
            {
-              $tmp = explode("-",$this->FIN_BAIXA);
+              $tmp = explode(" ",$this->FIN_BAIXA);
+              $tmp = explode("-",$tmp[0]);
               $this->FIN_BAIXA = $tmp[2]."-".$tmp[1]."-".$tmp[0];
            } 
            return parent::beforeSave();

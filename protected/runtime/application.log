@@ -6428,3 +6428,23 @@ Stack trace:
 REQUEST_URI=/www/technomagus/academias/index.php/siteadmin/financeiro/recebeparcela
 HTTP_REFERER=http://localhost/www/technomagus/academias/index.php/siteadmin/financeiro/admin/id/1
 ---
+2014/03/12 14:52:27 [error] [php] Undefined variable: model (C:\xampp\htdocs\Academias\protected\modules\siteadmin\models\Financeiro.php:106)
+Stack trace:
+#0 C:\xampp\htdocs\Yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\Yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\Yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(133): FinanceiroController->runAction()
+#4 C:\xampp\htdocs\Yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#5 C:\xampp\htdocs\Yii\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#6 C:\xampp\htdocs\Yii\framework\web\filters\CInlineFilter.php(58): FinanceiroController->filterAccessControl()
+#7 C:\xampp\htdocs\Yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#8 C:\xampp\htdocs\Yii\framework\web\CController.php(291): CFilterChain->run()
+#9 C:\xampp\htdocs\Yii\framework\web\CController.php(265): FinanceiroController->runActionWithFilters()
+#10 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(282): FinanceiroController->run()
+#11 C:\xampp\htdocs\Yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#12 C:\xampp\htdocs\Yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\Academias\index.php(15): CWebApplication->run()
+REQUEST_URI=/Academias/index.php/siteadmin/financeiro/create/id/2
+in C:\xampp\htdocs\Academias\protected\modules\siteadmin\models\Financeiro.php (106)
+in C:\xampp\htdocs\Academias\protected\modules\siteadmin\controllers\FinanceiroController.php (73)
+in C:\xampp\htdocs\Academias\index.php (15)
