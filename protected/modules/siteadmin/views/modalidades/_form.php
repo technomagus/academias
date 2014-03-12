@@ -87,8 +87,12 @@ $script = '
     var linha = $("#linha").html();
     $("#btnMais").click(function(){
         $("#linha").append(linha);
+        $(".modValor").priceFormat({
+            prefix: "R$ ",
+            centsSeparator: ",",
+            thousandsSeparator: "."
+        });
     });';
-
 Yii::app()->clientScript->registerScript('addCampo', $script, CClientScript::POS_READY);
 
 ?>

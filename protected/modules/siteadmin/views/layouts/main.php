@@ -4,7 +4,6 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="pt-br" />
-
 <link rel="stylesheet"
          type="text/css"
          href="<?php echo $this->module->assetsUrl; ?>/css/styles.css"/>

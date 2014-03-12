@@ -248,4 +248,20 @@ class Modalidades extends CActiveRecord
                 return substr(strip_tags($this->MOD_DESCRICAO), 0, $tamanho);
             }
         }
+        public function aGetSubMenuModalidades()
+        {
+            $dataProvider = self::findAllByAttributes(array('MOD_STATUS'=>1), array(
+                'order'=>'MOD_TITULO ASC',
+            ));
+            $items = array();
+            if(!empty($dataProvider)){
+                $i = 0;
+                foreach($dataProvider as $data){
+                    $items[$i]['label'] = $data->MOD_TITULO;
+                    $items[$i]['url'] = array('/modalidades/ver', 'id'=>$data->MODALIDADE_ID);
+                    $i++;
+                }
+            }
+            return $items;
+        }
 }

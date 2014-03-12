@@ -7,11 +7,15 @@
         </group>
         <group name="Technomagus"/>
         <group>
+            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/site/contact.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/css/add.css</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/modalidadesIndex.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/eventos/lista.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/index.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/ver.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/eventos/eventosInicial.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/models/Modalidades.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/models/ContactForm.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/layouts/main.php</file>
         </group>
     </open-files>
