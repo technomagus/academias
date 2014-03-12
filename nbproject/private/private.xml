@@ -7,15 +7,31 @@
         </group>
         <group name="Technomagus"/>
         <group>
+            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/slider/sliderindex.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/site/contact.php</file>
-            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/css/add.css</file>
-            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/modalidadesIndex.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/eventos/lista.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/videos/view.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/config/main.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/models/Cliente.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/controllers/FinanceiroController.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/models/Modalidades.php</file>
             <file>file:/C:/xampp/htdocs/Academias/index.php</file>
-            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/ver.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/layouts/main.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/eventos/eventosInicial.php</file>
             <file>file:/C:/xampp/htdocs/Academias/protected/models/Modalidades.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/controllers/ModalidadesController.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/layouts/column2.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/modalidadesIndex.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/models/Financeiro.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/assets/css/add.css</file>
             <file>file:/C:/xampp/htdocs/Academias/protected/models/ContactForm.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/assets/css/styles.css</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/SiteadminModule.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/controllers/ClienteController.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/models/Slider.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/css/add.css</file>
+            <file>file:/C:/xampp/htdocs/Academias/protected/modules/siteadmin/views/modalidades/_form.php</file>
+            <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/modalidades/ver.php</file>
             <file>file:/C:/xampp/htdocs/Academias/themes/bootstrap/views/layouts/main.php</file>
         </group>
     </open-files>

@@ -16,7 +16,7 @@ body{
     max-width: 960px;
 }
 .copperplate{
-    font-family: copperplate;
+    /*font-family:*/ 
 }
 .font18{
     font-size:18px;
@@ -29,7 +29,7 @@ body{
     color:#666;
 }
 .text-azul{
-    color: #0099cc;
+    color: #0066cc;
 }
 .text-branco{
     color: #fff !important;
@@ -81,11 +81,11 @@ body{
 }
 
 .rodape{
-    background:#0099cc;
+    background:#0066cc;
     height: 150px;
 }
 .direitos{
-    background: #0099cc;
+    background: #0066cc;
     color:#fff;
     display: block;
 }

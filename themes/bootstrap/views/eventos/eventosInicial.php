@@ -9,7 +9,7 @@ foreach($dataProvider as $data){
     
     ?>
 <div class="row-fluid" style="border:1px solid #999;">
-    <div class="row-fluid" style=" background:#0099cc; border-bottom:1px solid #999">
+    <div class="row-fluid" style=" background:#00cc; border-bottom:1px solid #999">
         <div class="span3 evData text-branco text-center font18 modalidades">
             <?php echo $data->aData . ' ' . $data->aHora ; ?>
         </div>
